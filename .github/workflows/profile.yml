@@ -1,0 +1,52 @@
+name: refresh profile
+
+# Redraws every SVG in assets/ from live GitHub and LeetCode data and commits the result.
+on:
+  schedule:
+    - cron: "23 */8 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/profile.json"
+      - "data/portrait.json"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Draw hero, cards, DSA graph, stats and contribution city
+        run: python scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Draw the contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake-light.svg?color_snake=#7c3aed&color_dots=#ebedf0,#ddd6fe,#c4b5fd,#8b5cf6,#6d28d9
+            assets/snake-dark.svg?palette=github-dark&color_snake=#a78bfa&color_dots=#161b22,#2e1f5e,#4c2f9e,#7c5cf0,#c4b5fd
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md data
+          git diff --cached --quiet || git commit -m "chore: refresh profile assets"
+          git push

@@ -1,0 +1,8 @@
+# original photo and matte: only scripts/portrait.py needs them, locally
+source/
+# avatar exports: upload one as your GitHub profile picture, no need to publish them all
+profile-picture/
+# local preview
+preview.html
+.claude/
+__pycache__/

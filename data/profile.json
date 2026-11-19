@@ -1,0 +1,236 @@
+{
+  "login": "vishu-py",
+  "name": "Vaishnavi Singh",
+  "hero": {
+    "title": "vaishnavi@svnit: ~/vision",
+    "command": "python vision.py --subject vaishnavi",
+    "role": "AI undergrad · DSA in C++ · full-stack builder",
+    "rows": [
+      ["degree", "B.Tech, Artificial Intelligence"],
+      ["college", "SVNIT Surat · 2nd year · class of 2029"],
+      ["dsa", "{lc_solved} LeetCode problems · C++ & STL"],
+      ["building", "TaskFlow · hackathon prototypes"],
+      ["hackathons", "SIH 2026 · IIT Mandi · MongoDB @ SVNIT"],
+      ["club", "ACM SVNIT"]
+    ],
+    "taglines": [
+      "learning by building, one project at a time.",
+      "turning ideas into working applications.",
+      "solving problems in C++, one pattern at a time.",
+      "exploring AI, NLP and computer vision.",
+      "hackathon teams, late nights, real prototypes."
+    ]
+  },
+  "leetcode": {
+    "username": "Vishu_py",
+    "fallback": {
+      "solved": 300,
+      "solved_label": "300+",
+      "easy": null,
+      "medium": null,
+      "hard": null,
+      "streak": null,
+      "streak_label": "100+"
+    }
+  },
+  "leetcode_repo": "leetcode-solutions-cpp",
+  "dsa_topics": {
+    "levels": [
+      ["Arrays & Strings"],
+      ["STL", "Hashing", "Sorting", "Linked Lists", "Recursion & Backtracking"],
+      ["Binary Search", "Greedy", "Stacks & Queues", "Trees & Binary Trees", "Dynamic Programming"],
+      ["Graphs"]
+    ],
+    "edges": [
+      ["Arrays & Strings", "STL"], ["Arrays & Strings", "Hashing"], ["Arrays & Strings", "Sorting"],
+      ["Arrays & Strings", "Linked Lists"], ["Arrays & Strings", "Recursion & Backtracking"],
+      ["Sorting", "Binary Search"], ["Sorting", "Greedy"], ["Linked Lists", "Stacks & Queues"],
+      ["STL", "Stacks & Queues"], ["Recursion & Backtracking", "Trees & Binary Trees"],
+      ["Recursion & Backtracking", "Dynamic Programming"], ["Hashing", "Dynamic Programming"],
+      ["Stacks & Queues", "Graphs"], ["Trees & Binary Trees", "Graphs"]
+    ]
+  },
+  "projects": [
+    {
+      "key": "VAANI",
+      "title": "VAANI",
+      "url": "https://github.com/Gautam-eng19/VAANI",
+      "kind": "team",
+      "badge": "team · IIT Mandi hackathon '26",
+      "stack": "FastAPI · React · TypeScript",
+      "about": "Compares a spoken reading with baseline recordings word by word and reports pace, pause, pitch and loudness flaws with timestamps.",
+      "art": "wave"
+    },
+    {
+      "key": "PARAKH",
+      "title": "PARAKH",
+      "url": "https://github.com/Gautam-eng19/PARAKH",
+      "kind": "team",
+      "badge": "team of 3 · UNCHARTED '26",
+      "stack": "FastAPI · MongoDB · GitHub Actions",
+      "about": "Runs a fixed test set against two versions of an LLM prompt and returns one verdict with reasons. Dashboard, CLI and a pull request bot.",
+      "art": "verdict"
+    },
+    {
+      "key": "TaskFlow",
+      "title": "TaskFlow",
+      "url": "https://github.com/vishu-py/TaskFlow",
+      "kind": "wip",
+      "badge": "in progress",
+      "stack": "HTML · CSS · JS today → Next.js · TypeScript · Tailwind",
+      "about": "A productivity dashboard inspired by Linear, Notion and TickTick: tasks, calendar, focus sessions, analytics and a Focus Garden that grows with your streak.",
+      "art": "garden"
+    },
+    {
+      "key": "TARAZU",
+      "title": "TARAZU",
+      "url": null,
+      "kind": "prototype",
+      "badge": "prototype · SIH 2026",
+      "stack": "React · TypeScript · Vite · Tailwind CSS",
+      "about": "A prototype for Non-Automatic Weighing Instruments, built in the Smart India Hackathon 2026 context.",
+      "art": "scale"
+    },
+    {
+      "key": "SAKSHYA",
+      "title": "SAKSHYA",
+      "url": null,
+      "kind": "prototype",
+      "badge": "prototype · SIH",
+      "stack": "image analysis · digital verification",
+      "about": "An image-based analysis solution for digital verification, built in the Legal Metrology problem-solving context.",
+      "art": "scan"
+    },
+    {
+      "key": "Hindi-Text-Restoration",
+      "title": "Hindi Text Reconstruction",
+      "url": "https://github.com/vishu-py/Hindi-Text-Restoration",
+      "kind": "research",
+      "badge": "NLP research",
+      "stack": "Python · Jupyter · multilingual transformers",
+      "about": "Reconstructing Hindi text with missing or NULL-marked content: corpus inspection, preprocessing, normalisation, tokenisation and multilingual pretrained models.",
+      "art": "hindi"
+    },
+    {
+      "key": "leetcode-solutions-cpp",
+      "title": "leetcode-solutions-cpp",
+      "url": "https://github.com/vishu-py/leetcode-solutions-cpp",
+      "kind": "ongoing",
+      "badge": "{lc_repo} solutions",
+      "stack": "C++ · STL",
+      "about": "My accepted LeetCode solutions in C++, organised by topic: arrays, strings, hashing, trees, binary search, DP and more.",
+      "art": "code"
+    },
+    {
+      "key": "YouTube-clone",
+      "title": "YouTube Clone",
+      "url": "https://vishu-py.github.io/YouTube-clone/",
+      "repo": "https://github.com/vishu-py/YouTube-clone",
+      "kind": "done",
+      "badge": "completed · live demo",
+      "stack": "HTML · CSS · Flexbox · Grid",
+      "about": "A responsive recreation of the YouTube homepage, focused on component-based layout, responsive UI and web fundamentals.",
+      "art": "grid"
+    }
+  ],
+  "hackathons": [
+    {
+      "title": "Smart India Hackathon 2026",
+      "tag": "team of 6",
+      "line": "Problem statement 034 · Package Compliance Detection",
+      "chips": ["OCR", "OpenCV", "YOLO", "NLP", "rule-based validation"]
+    },
+    {
+      "title": "IIT Mandi Hackathon",
+      "tag": "team",
+      "line": "Collaborative build · VAANI speech analytics",
+      "chips": ["FastAPI", "React", "TypeScript"]
+    },
+    {
+      "title": "MongoDB Student Hackathon · SVNIT",
+      "tag": "concept",
+      "line": "BugBound · developer tooling for debugging and release comparison",
+      "chips": ["developer tools", "debugging"]
+    },
+    {
+      "title": "ACM Club · SVNIT",
+      "tag": "selected",
+      "line": "Technical activities, collaborative projects, developer community",
+      "chips": ["community"]
+    }
+  ],
+  "learning": [
+    ["mern_fullstack", "Full-stack development with MERN"],
+    ["react_nextjs", "Advanced React and Next.js"],
+    ["backend_rest", "Backend development and REST API design"],
+    ["databases", "Database design and optimisation"],
+    ["ai_ml", "Artificial Intelligence and Machine Learning"],
+    ["nlp", "Natural Language Processing"],
+    ["computer_vision", "Computer Vision"],
+    ["model_training", "Model training and evaluation"],
+    ["git_workflows", "Software engineering and collaborative Git"],
+    ["advanced_dsa", "Competitive programming and advanced DSA"]
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        {"name": "C++", "logo": "cplusplus", "color": "659AD2", "url": "https://isocpp.org/"},
+        {"name": "C", "logo": "c", "color": "A8B9CC", "url": "https://en.wikipedia.org/wiki/C_(programming_language)"},
+        {"name": "Java", "logo": "openjdk", "color": "ED8B00", "url": "https://dev.java/"},
+        {"name": "Python", "logo": "python", "color": "4B8BBE", "url": "https://www.python.org/"},
+        {"name": "JavaScript", "logo": "javascript", "color": "F7DF1E", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
+        {"name": "TypeScript", "logo": "typescript", "color": "3178C6", "url": "https://www.typescriptlang.org/"},
+        {"name": "SQL", "logo": "icon:database", "color": "A78BFA", "url": "https://en.wikipedia.org/wiki/SQL"}
+      ]
+    },
+    {
+      "group": "Frontend",
+      "items": [
+        {"name": "HTML", "logo": "html5", "color": "E34F26", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"},
+        {"name": "CSS", "logo": "css", "color": "A371F7", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"},
+        {"name": "React", "logo": "react", "color": "61DAFB", "url": "https://react.dev/"},
+        {"name": "Vite", "logo": "vite", "color": "8C92FF", "url": "https://vite.dev/"},
+        {"name": "Tailwind CSS", "logo": "tailwindcss", "color": "38BDF8", "url": "https://tailwindcss.com/"}
+      ]
+    },
+    {
+      "group": "Backend",
+      "items": [
+        {"name": "Node.js", "logo": "nodedotjs", "color": "5FA04E", "url": "https://nodejs.org/"},
+        {"name": "Express.js", "logo": "express", "color": "FFFFFF", "url": "https://expressjs.com/"},
+        {"name": "FastAPI", "logo": "fastapi", "color": "05998B", "url": "https://fastapi.tiangolo.com/"},
+        {"name": "MERN Stack", "logo": "icon:stack", "color": "A78BFA", "url": "https://www.mongodb.com/resources/languages/mern-stack"},
+        {"name": "REST APIs", "logo": "icon:arrows", "color": "A78BFA", "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST"},
+        {"name": "JWT", "logo": "jsonwebtokens", "color": "FB015B", "url": "https://jwt.io/"},
+        {"name": "Middleware", "logo": "icon:layers", "color": "A78BFA", "url": "https://expressjs.com/en/guide/using-middleware.html"},
+        {"name": "RBAC", "logo": "icon:shield", "color": "A78BFA", "url": "https://en.wikipedia.org/wiki/Role-based_access_control"}
+      ]
+    },
+    {
+      "group": "Databases",
+      "items": [
+        {"name": "MongoDB", "logo": "mongodb", "color": "47A248", "url": "https://www.mongodb.com/"},
+        {"name": "PostgreSQL", "logo": "postgresql", "color": "699ECA", "url": "https://www.postgresql.org/"}
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        {"name": "Git", "logo": "git", "color": "F05032", "url": "https://git-scm.com/"},
+        {"name": "GitHub", "logo": "github", "color": "FFFFFF", "url": "https://github.com/"},
+        {"name": "Postman", "logo": "postman", "color": "FF6C37", "url": "https://www.postman.com/"},
+        {"name": "VS Code", "logo": "icon:code", "color": "23A9F2", "url": "https://code.visualstudio.com/"}
+      ]
+    },
+    {
+      "group": "Concepts",
+      "items": [
+        {"name": "Data Structures & Algorithms", "logo": "icon:tree", "color": "A78BFA", "url": "https://en.wikipedia.org/wiki/Data_structure"},
+        {"name": "OOP", "logo": "icon:cube", "color": "A78BFA", "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"},
+        {"name": "DBMS", "logo": "icon:database", "color": "A78BFA", "url": "https://en.wikipedia.org/wiki/Database"},
+        {"name": "Authentication", "logo": "icon:lock", "color": "A78BFA", "url": "https://en.wikipedia.org/wiki/Authentication"}
+      ]
+    }
+  ]
+}
